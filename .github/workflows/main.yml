@@ -27,5 +27,5 @@ jobs:
 
       - name: Trial G-CLI
         run: |
-          g-cli --lv-ver 2020 "${{ github.workspace }}"
+          LabVIEWCLI --lv-ver 2020 "${{ github.workspace }}\Test Files\Test 1\Test Convert.vi"
         shell: cmd
