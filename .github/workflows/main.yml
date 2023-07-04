@@ -27,5 +27,5 @@ jobs:
 
       - name: Trial G-CLI
         run: |
-          LabVIEWCLI --lv-ver 2020 "${{ github.workspace }}\Test Files\Test 1\Test Convert.vi"
+          LabVIEWCLI -OperationName ExecuteBuildSpec -ProjectPath "${{ github.workspace }}\Test Files\Test 1\Test Convert.vi"
         shell: cmd
