@@ -21,6 +21,4 @@ Install them from VIPM if not available.
 
 # STEP1: Creating YAML File
 
-![YAML Template](image.png)
-
-
+![YAML Template](README Images/image.png)
