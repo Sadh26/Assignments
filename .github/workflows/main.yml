@@ -27,5 +27,5 @@ jobs:
 
       - name: Trial G-CLI
         run: |
-          g-cli --lv-ver 2020 "${{ github.workspace }}\Assignments\Assignment 1\Celsius to Farenheit\Tests\Test Convert.vi"
+          g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test Convert.vi"
         shell: cmd
