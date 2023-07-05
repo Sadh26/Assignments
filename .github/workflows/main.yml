@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Trial G-CLI
+      - name: Test Cases
         run: |
           g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test Convert.vi"
           g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test Stop.vi"
