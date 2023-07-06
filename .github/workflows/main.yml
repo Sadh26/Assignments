@@ -29,4 +29,5 @@ jobs:
         run: |
           g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test Convert.vi"
           g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test Stop.vi"
+          g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 2\Tests\Test Stop.vi"
         shell: cmd
