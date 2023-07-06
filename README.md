@@ -23,3 +23,26 @@ Install them from VIPM if not available.
 
 ![image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/image.png)
 
+Click SETUP A WORKFLOW YOURSELF and paste the code from the YAML file of this repository.
+(After commiting in GitHub pull the updates to your local)
+
+# STEP2: Details of YAML File
+
+YAML Image
+
+1. This will trigger the test to run (only if connected to GitHub through Windows Powershell) once there is a PR or push to the master/main branch. [Press ctrl+/ to uncomment it from the YAML template]
+2. Follow this https://solitontech-my.sharepoint.com/:w:/p/sadhana_suresh/EUg5HBnxLrpCqPJ7OgUee3IBjahCa6hl3Jtg0OSPKQXD-Q?e=hvmr8B to set up a Self-hosted system
+
+Github Workspace Image
+
+3. ${{ github.workspace }} --> To see the directory you can echo this and check. Call the Test vi in the run command.
+
+# STEP3: Assignment File Hierachy
+
+Files Image
+
+1. Have the Project files, Main.vi and Tests folder
+
+Tests Image
+
+2. The Tests Folder will contain the Test vi, Test library and Drona ini file.
