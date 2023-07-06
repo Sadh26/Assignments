@@ -41,8 +41,8 @@ Click SETUP A WORKFLOW YOURSELF and paste the code from the YAML file of this re
 
 ![Files_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/Files.png)
 
-1. Have the Project files, Main.vi and Tests folder
+Have the Project files, Main.vi and Tests folder
 
 ![Tests_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/Tests.png)
 
-2. The Tests Folder will contain the Test vi, Test library and Drona ini file.
+The Tests Folder will contain the Test vi, Test library and Drona ini file.
