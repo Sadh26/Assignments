@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-<testsuite name="Stop Test" errors="0" skipped="0" tests="2" failures="0" timestamp="2023-07-07T10:50:10">
-<testcase classname="Stop Test" name="VI is running"/>
-<testcase classname="Stop Test" name="VI stops running"/>
-</testsuite>
-</testsuites>

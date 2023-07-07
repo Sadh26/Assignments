@@ -6,6 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Test All.vi" Type="VI" URL="../Test All.vi"/>
 	<Item Name="Test Convert.vi" Type="VI" URL="../Test Convert.vi"/>
 	<Item Name="Test Stop.vi" Type="VI" URL="../Test Stop.vi"/>
 </Library>
