@@ -17,7 +17,7 @@ This Repo will act as the template for Assignment uploads.
 
 Install them from VIPM if not available.
 
-## NOTE: Kindly follow the steps below in creating files
+*NOTE: Kindly follow the steps below in creating files*
 
 # STEP1: Creating YAML File
 
@@ -31,7 +31,7 @@ Click SETUP A WORKFLOW YOURSELF and paste the code from the YAML file of this re
 ![YAML_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/YAML.png)
 
 1. This will trigger the test to run (only if connected to GitHub through Windows Powershell) once there is a PR or push to the master/main branch. [Press ctrl+/ to uncomment it from the YAML template]
-2. Follow this https://solitontech-my.sharepoint.com/:w:/p/sadhana_suresh/EUg5HBnxLrpCqPJ7OgUee3IBjahCa6hl3Jtg0OSPKQXD-Q?e=hvmr8B to set up a Self-hosted system
+2. Follow this [link](https://solitontech-my.sharepoint.com/:w:/p/sadhana_suresh/EUg5HBnxLrpCqPJ7OgUee3IBjahCa6hl3Jtg0OSPKQXD-Q?e=hvmr8B) to set up a Self-hosted system
 
 ![Github_Workspace_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/GH%20Workspace.png)
 
