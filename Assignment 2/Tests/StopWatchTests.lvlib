@@ -14,4 +14,5 @@
 	<Item Name="Test Reset.vi" Type="VI" URL="../Test Reset.vi"/>
 	<Item Name="Test Stopwatch.vi" Type="VI" URL="../Test Stopwatch.vi"/>
 	<Item Name="Test Stop.vi" Type="VI" URL="../Test Stop.vi"/>
+	<Item Name="Test All.vi" Type="VI" URL="../Test All.vi"/>
 </Library>
