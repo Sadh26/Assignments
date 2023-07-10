@@ -47,8 +47,10 @@ Have the Project files, Main.vi and Tests folder
 
 The Tests Folder will contain the Test vi, Test library, Drona ini file and Test results folder.
 
-![Test_Results]()
+![Test_Results](https://github.com/Sadh26/Assignments/blob/master/README%20Images/Test_folder.png)
 
 The Test Results folder will contain a blank xml document. This has to be created because a empty folder cannot be added to the GitHub Repository. 
+
 To create a xml document copy the content from blank xml document > paste it in a text document and save it as .xml
+
 When the YAML file runs the report generated gets saved in the actions_runner folder of the self hosted runner.
