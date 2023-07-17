@@ -27,5 +27,5 @@ jobs:
 
       - name: Test Cases
         run: |
-          g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 2\Tests\Test All.vi"
+          g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Tests\Test All.vi"
         shell: cmd
