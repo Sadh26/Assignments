@@ -31,7 +31,7 @@ Click SETUP A WORKFLOW YOURSELF and paste the code from the YAML file of this re
 ![YAML_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/YAML.png)
 
 1. This will trigger the test to run (only if connected to GitHub through Windows Powershell) once there is a PR or push to the master/main branch. [Press ctrl+/ to uncomment it from the YAML template]
-2. Follow this [link](https://solitontech-my.sharepoint.com/:w:/p/sadhana_suresh/EUg5HBnxLrpCqPJ7OgUee3IBjahCa6hl3Jtg0OSPKQXD-Q?e=hvmr8B) to set up a Self-hosted system
+2. Follow this [link](https://github.com/Sadh26/Assignments/tree/feature-1#step3-adding-a-self-hosted-system) to set up a Self-hosted system. Refer this for detailed assistance [link](https://solitontech-my.sharepoint.com/:w:/p/sadhana_suresh/EUg5HBnxLrpCqPJ7OgUee3IBjahCa6hl3Jtg0OSPKQXD-Q?e=hvmr8B)
 
 ![Github_Workspace_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/GH%20Workspace.png)
 
