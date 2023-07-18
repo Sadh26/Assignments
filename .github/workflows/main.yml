@@ -29,7 +29,7 @@ jobs:
       - name: Check if unit test files exist
         id: check-test-files
         run: |
-          if ["${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"]; then
+          if "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi" ; then
             echo "::set-output name=exist::true"
           else
             echo "::set-output name=exist::false"
