@@ -39,21 +39,26 @@ Click SETUP A WORKFLOW YOURSELF and paste the code from the YAML file of this re
 
 
 # STEP3: Adding a self-hosted system
-![Runner-1]()
+![Runner-1](https://github.com/Sadh26/Assignments/blob/feature-1/README%20Images/Runner-1.png)
 
-![Runner-2]()
+![Runner-2](https://github.com/Sadh26/Assignments/blob/feature-1/README%20Images/Runner-2.png)
 
 After selecting Settings> Runners> New self-hosted runner, a page will be opened (as shown in the image below) 
 Copy and paste the commands in the WINDOWS POWERSHELL. 
 
-![Runner-3]()
+![Runner-3](https://github.com/Sadh26/Assignments/blob/feature-1/README%20Images/Runner-3.png)
 
-![Runner-4]()
+![Runner-4](https://github.com/Sadh26/Assignments/blob/feature-1/README%20Images/Runner-4.png)
 
-If the build fails due to windows execution policy, then follow the link below to remove the restrictions. 
-[About ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
+If the build fails due to windows execution policy, then follow the link below to remove the restrictions. Useful Links: 
+[About ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3) and 
 [Set-ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3) --> Set this as UNRESTRICTED.
 
+![Runner-5](https://github.com/Sadh26/Assignments/blob/feature-1/README%20Images/Runner-5.png)
+
+After successfully connecting to GitHub, we can run the workflow manually by clicking RUN WORKFLOW or set a TRIGGER in the YAML (.yml) file when there is a PR or Push to the main/master branch.  
+
+A mail will be sent to the mail id of the GitHub account when the build fails by default. 
 # STEP4: Assignment File Hierachy
 
 ![Files_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/Files.png)
