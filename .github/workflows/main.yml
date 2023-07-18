@@ -29,4 +29,4 @@ jobs:
       - name: Test Cases
         run: |
           g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"
-        shell: cmd
+        # shell: cmd
