@@ -29,7 +29,7 @@ jobs:
       - name: Check if unit test files exist
         id: check-test-files
         run: |
-          if [ -f "./Tests/Test All.vi" ]; then
+          if [ -d "./Tests/Test All.vi" ]; then
             echo "::set-output name=exist::true"
           else
             echo "::set-output name=exist::false"
