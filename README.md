@@ -37,7 +37,24 @@ Click SETUP A WORKFLOW YOURSELF and paste the code from the YAML file of this re
 
 3. ${{ github.workspace }} --> To see the directory you can echo this and check. Call the Test vi in the run command.
 
-# STEP3: Assignment File Hierachy
+
+# STEP3: Adding a self-hosted system
+![Runner-1]()
+
+![Runner-2]()
+
+After selecting Settings> Runners> New self-hosted runner, a page will be opened (as shown in the image below) 
+Copy and paste the commands in the WINDOWS POWERSHELL. 
+
+![Runner-3]()
+
+![Runner-4]()
+
+If the build fails due to windows execution policy, then follow the link below to remove the restrictions. 
+[About ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3)
+[Set-ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3) --> Set this as UNRESTRICTED.
+
+# STEP4: Assignment File Hierachy
 
 ![Files_Image](https://github.com/Sadh26/Assignments/blob/master/README%20Images/Files.png)
 
