@@ -35,11 +35,9 @@ jobs:
             echo "::set-output name=exist::false"
           fi
 
- 
-
       - name: Display result
         run: |
-          if [ "${{ steps.check-test-files.outputs.exist }}" = "true" ]; then
+          if ([ "${{ steps.check-test-files.outputs.exist }}" = "true" ]); then
             echo "LabVIEW unit test files found. Run your LabVIEW unit tests."
           else
             echo "No LabVIEW unit test files found."
