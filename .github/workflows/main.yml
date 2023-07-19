@@ -49,7 +49,7 @@ jobs:
       - name: Check if unit test project exists
         id: check-project
         run: |
-          echo "$testfile_location"
+          echo "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"
           if ( "$testfile_location" )
           {
             echo "::set-output name=exists::true"
