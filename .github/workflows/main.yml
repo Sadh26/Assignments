@@ -44,10 +44,10 @@ jobs:
 
       - name: File not found
         run: |
-          if (failure) ; then
+          if (failure)  then
             echo "File not found"
             exit 1
           fi
-          else;
+          else
             echo "File Present"
           esle
