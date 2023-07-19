@@ -51,12 +51,12 @@ jobs:
         run: |
           if ( "$testfile_location" )
           {
-            echo "exists=true" >>$GITHUB_OUTPUT
+            echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Test file found"
           }
           else
           {
-            echo "exists=false" >>$GITHUB_OUTPUT
+            echo "exists=false" >> "$GITHUB_OUTPUT"
             echo "Test file not found"
           }
 
