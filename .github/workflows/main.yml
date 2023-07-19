@@ -63,7 +63,7 @@ jobs:
       # Run the unit test if unit test file exists
       - name: Run tests
         run: |
-          if ( "${{ steps.check-project.outputs.exists }}" == "true" )
+          if ( "${{ steps.check-project.outputs.exists }}" -eq "true" )
           {
             g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 3\Tests\Test All.vi"
           }
