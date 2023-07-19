@@ -49,6 +49,7 @@ jobs:
       - name: Check if unit test project exists
         id: check-project
         run: |
+          echo "$testfile_location"
           if ( "$testfile_location" )
           {
             echo "::set-output name=exists::true"
