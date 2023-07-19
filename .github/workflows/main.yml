@@ -3,8 +3,8 @@
 name: CI
 
 env:
-    # Replace with your test project csproj file location
-    testfile_location: C:\Users\sadhana.suresh\Documents\GIT\Assignments\Assignment 1\Celsius to Farenheit\Tests\Test All.vi
+    # Replace with your test project file location
+    testfile_location: ./Assignment 1/Celsius to Farenheit/Tests/Test All.vi
     
 
 # Controls when the workflow will run
