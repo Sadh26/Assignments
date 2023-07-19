@@ -65,7 +65,7 @@ jobs:
         run: |
           if ( "${{ steps.check-project.outputs.exists }}" -eq "true" )
           {
-            g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 3\Tests\Test All.vi"
+            g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"
           }
           else
           {
