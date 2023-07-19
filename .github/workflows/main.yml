@@ -35,7 +35,7 @@ jobs:
     # The type of runner that the job will run on
     # needs: check-test-file
     runs-on: self-hosted
-    # needs: run-test-file
+    needs: run-test-file
     
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -44,10 +44,9 @@ jobs:
 
       - name: File not found
         run: |
-          if (failure)  then
+          if (failure) ; then
             echo "File not found"
             exit 1
-          fi
           else
             echo "File Present"
-          esle
+          if
