@@ -15,34 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  # check-test-file:
-  #   # The type of runner that the job will run on
-  #   runs-on: self-hosted
-    
-
-  #   # Steps represent a sequence of tasks that will be executed as part of the job
-  #   steps:
-  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-  #     - uses: actions/checkout@v3
-
-  #     - name: Check if unit test files exist
-  #       id: check-test-files
-  #       run: |
-  #         if [ -d "./Tests/Test All.vi" ]; then
-  #           echo "::set-output name=exist::true"
-  #         else
-  #           echo "::set-output name=exist::false"
-  #         fi
-
-  #     - name: Display result
-  #       run: |
-  #         if [ "${{ steps.check-test-files.outputs.exist }}" = "true" ]; then
-  #           echo "LabVIEW unit test files found. Run your LabVIEW unit tests."
-  #         else
-  #           echo "No LabVIEW unit test files found."
-  #         fi
-
+  
   run-test-file:
     # The type of runner that the job will run on
     # needs: check-test-file
@@ -57,3 +30,21 @@ jobs:
         run: |
           g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"
         shell: cmd
+
+  check-test-file:
+    # The type of runner that the job will run on
+    # needs: check-test-file
+    runs-on: self-hosted
+    needs: run-test-file
+    
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: File not found
+        run: |
+          if failure ; then
+            echo "File not found"
+            exit 1
+          fi
