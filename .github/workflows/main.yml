@@ -50,7 +50,7 @@ jobs:
         id: check-project
         run: |
           echo "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"
-          if ( "$testfile_location" )
+          if ( "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi" )
           {
             echo "::set-output name=exists::true"
             echo "Test file found"
