@@ -2,10 +2,6 @@
 
 name: CI
 
-env:
-    # Replace with your test project file location
-    testfile_location: ../Assignment 1/Celsius to Farenheit/Tests/Test All.vi
-    
 
 # Controls when the workflow will run
 on:
@@ -21,20 +17,6 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   
-  # run-test-file:
-  #   # The type of runner that the job will run on
-  #   # needs: check-test-file
-  #   runs-on: self-hosted
-
-  #   # Steps represent a sequence of tasks that will be executed as part of the job
-  #   steps:
-  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-  #     - uses: actions/checkout@v3
-
-  #     - name: Test Cases
-  #       run: |
-  #         g-cli --lv-ver 2020 "${{ github.workspace }}\Assignment 3\Tests\Test All.vi"
-  #       shell: cmd
   Unit-tests:
     # Use the latest version of Windows as the runner
     runs-on: self-hosted
@@ -48,8 +30,8 @@ jobs:
       # Checks if the unit test file exists
       - name: Check if unit test project exists
         id: check-project
+        # Enter the directory where the Test file is present inside the if condition
         run: |
-          echo "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi"
           if ( "${{ github.workspace }}\Assignment 1\Celsius to Farenheit\Tests\Test All.vi" )
           {
             echo "::set-output name=exists::true"
